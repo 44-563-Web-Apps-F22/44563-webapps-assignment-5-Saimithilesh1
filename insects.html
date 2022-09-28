@@ -11,7 +11,38 @@
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script> 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" 
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+<style>
+     th:hover {
+      color: yellow;
+    }
 
+    tr:hover {
+      background-color: skyblue;
+    }
+
+    table,
+    th,
+    td {
+      border: 1px solid;
+      text-align: center;
+    }
+
+    tr {
+      background-color: lightpink;
+    }
+
+    th,
+    td {
+      width: 200px;
+      padding: 0px 4px 4px 4px;
+      margin: -30px 0px -15px 100px;
+      background: lightblue;
+      border-top: 2px double #000;
+      border-right: 4px solid brown;
+      border-bottom: 8px double yellow;
+      border-left: 16px solid purple;
+    }
+  </style>
 </head>
 <body>
     <h1>Insects by Sai Mithilesh Singuluri</h1>
@@ -53,5 +84,54 @@
         <img src="lacewing.jpg" class="img-thumbnail" width="280" height="300" alt="LACE WING">
         <img src="stickinsect.jpg" class="img-thumbnail" width="280" height="300" alt="Stick Insect">
     </div>
+    <table class="table table-hover table-striped table-bordered table-compacted caption-top">
+        <caption><b> The below table describes about Letters, Insects, Cities and Rivers</b></caption>
+        <thead>
+          <tr class="table-dark">
+            <th scope="col">Letter</th>
+            <th scope="col">Insect</th>
+            <th scope="col">City</th>
+            <th scope="col">River</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="table-secondary">
+            <th scope="row">S</th>
+            <td>Stick insect</td>
+            <td>Singapore</td>
+            <td>Sac river</td>
+          </tr>
+          <tr class="table-success">
+            <th scope="row">I</th>
+            <td>Io moth</td>
+            <td>INDORE</td>
+            <td>Illinois River</td>
+          </tr>
+          <tr class="table-danger">
+            <th scope="row">N</th>
+            <td>Netwing</td>
+            <td>Nagavaram</td>
+            <td>Naches River</td>
+          </tr>
+          <tr class="table-warning">
+            <th scope="row">G</th>
+            <td>Glowworm</td>
+            <td>Gudiwada</td>
+            <td>Georgen River</td>
+          </tr>
+          <tr class="table-info">
+            <th scope="row">U</th>
+            <td>Underwing</td>
+            <td>Uganda</td>
+            <td>Union River</td>
+          </tr>
+          <tr class="table-light">
+            <th scope="row">L</th>
+            <td>Lacewing</td>
+            <td>Lambo</td>
+            <td>Laplata</td>
+          </tr>
+        </tbody>
+      </table>
 </body>
 </html>
